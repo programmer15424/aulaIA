@@ -1,17 +1,17 @@
 'use client';
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/Login";
-import DashboardDocente from "./pages/docente/Dashboard";
-import PlanesDocente from "./pages/docente/Planes";
-import CrearPlan from "./pages/docente/CrearPlan";
-import EditarPlan from "./pages/docente/EditarPlan";
-import GenerarActividades from "./pages/docente/GenerarActividades";
-import ResultadosDocente from "./pages/docente/Resultados";
-import DashboardEstudiante from "./pages/estudiante/Dashboard";
-import ActividadesEstudiante from "./pages/estudiante/Actividades";
-import ResolverActividad from "./pages/estudiante/ResolverActividad";
-import Retroalimentacion from "./pages/estudiante/Retroalimentacion";
+import { HashRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Login from "./views/Login";
+import DashboardDocente from "./views/docente/Dashboard";
+import PlanesDocente from "./views/docente/Planes";
+import CrearPlan from "./views/docente/CrearPlan";
+import EditarPlan from "./views/docente/EditarPlan";
+import GenerarActividades from "./views/docente/GenerarActividades";
+import ResultadosDocente from "./views/docente/Resultados";
+import DashboardEstudiante from "./views/estudiante/Dashboard";
+import ActividadesEstudiante from "./views/estudiante/Actividades";
+import ResolverActividad from "./views/estudiante/ResolverActividad";
+import Retroalimentacion from "./views/estudiante/Retroalimentacion";
 import "./App.css";
 
 function App() {

@@ -8,6 +8,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  reactStrictMode: false,
+  turbopack: {},
 }
 
 export default nextConfig
